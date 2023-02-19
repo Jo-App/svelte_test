@@ -19,7 +19,7 @@
   <button on:click={callChild}>
     Send to Child
     <span class="material-symbols-outlined parent-arrow">arrow_top_left</span>
-</button>
+  </button>
   <Child bind:sayChild={sayChild}></Child>
 </section>
 

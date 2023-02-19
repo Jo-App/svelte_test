@@ -1,10 +1,12 @@
 <script>
   import { getContext } from 'svelte';
-  export const sayChild = () => {console.log('아들: 엄마생신 아니라는데요ㅋㅋㅋㅋㅋㅋ');}
+  export const sayChild = () => { 
+    console.log('아들: 엄마생신 아니라는데요ㅋㅋㅋㅋㅋㅋㅋㅋㅋ');
+  }
   const { parentTalk } = getContext('talk');
 
   const childTalk = () => {
-    console.log('아들: 엄마한테 혼났어요');
+    console.log('아들: 엄마한테 혼났어요ㅋㅋ');
     parentTalk();
   }
 
